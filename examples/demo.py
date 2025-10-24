@@ -1,3 +1,4 @@
+import json
 import os
 
 from escrow_sdk import EscrowAPIClient
@@ -10,7 +11,8 @@ def main():
     api_key = os.getenv("ESCROW_API_KEY")
     email = os.getenv("ESCROW_EMAIL")
     client = EscrowAPIClient(api_key=api_key, email=email)
-    print(client.customers.get_me())
+    response = client.customers.get_me()
+    print(json.dumps(response, indent=2, ensure_ascii=False))
 
 
 if __name__ == "__main__":

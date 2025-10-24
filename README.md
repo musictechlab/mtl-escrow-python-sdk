@@ -57,6 +57,57 @@ poetry run pytest -v
    poetry run python examples/demo.py
    ```
 
+   The example will output a nicely formatted JSON response with your customer information:
+
+   ```json
+   {
+     "address": {
+       "city": "My City",
+       "country": "PL",
+       "line1": "Wadowicka 43",
+       "post_code": "30-214",
+       "state": "Małopolskie"
+     },
+     "company": {
+       "address": {},
+       "company_name": ""
+     },
+     "customer_email_verification": {
+       "verified": false
+     },
+     "date_of_birth": "1982-03-10T00:00:00",
+     "display_name": "Mariusz Admin",
+     "electronic_verification": {
+       "available": false,
+       "documents_supported": []
+     },
+     "email": "test@musictechlab.io",
+     "first_name": "Mariusz",
+     "id": 3813415,
+     "last_name": "Admin",
+     "phone_number": "+487232473274",
+     "shipping_address": {},
+     "tax_numbers": [
+       {
+         "id": 29919,
+         "number": "PL4342947811",
+         "type": "vat"
+       }
+     ],
+     "verification": {
+       "company": {
+         "status": "not_required"
+       },
+       "extended": {
+         "status": "not_required"
+       },
+       "personal": {
+         "status": "verified"
+       }
+     }
+   }
+   ```
+
 ## 🔐 Auth
 
 - **Preferred** → API Key with HTTP Basic — pass `email` & `api_key` to use HTTP Basic authentication with email as username and API key as password.
