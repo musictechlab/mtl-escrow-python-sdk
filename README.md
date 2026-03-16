@@ -137,11 +137,31 @@ poetry run pytest -v
 
 - [Escrow.com API Basics](https://www.escrow.com/api/docs/basics)
 - [Escrow.com API Reference](https://www.escrow.com/api/docs/reference)
-- [MusicTech Lab](https://musictechlab.com)
+- [MusicTech Lab](https://musictechlab.io)
 
 ---
 
+## Contributing
+
+Contributions are welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md) before submitting a PR.
+
+## Security
+
+To report a vulnerability, please see [SECURITY.md](SECURITY.md).
+
 ## 🪪 License
 
-MIT License — © 2025 **MusicTech Lab**  
+MIT License — © 2025 **MusicTech Lab**
 Built with ❤️ by MusicTech Lab.
+
+---
+
+<div align="center">
+  MusicTech Lab - Rockstars Developers dedicated to the Music Industry<br>
+  <a href="https://musictechlab.io">Website</a>
+  <span> | </span>
+  <a href="https://linkedin.com/company/musictechlab">LinkedIn</a>
+  <span> | </span>
+  <a href="https://musictechlab.io/contact">Let's talk</a><br>
+  Crafted by <a href="https://musictechlab.io">musictechlab.io</a>
+</div>
